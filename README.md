@@ -12,6 +12,7 @@ v14 Discord kütüphaneli Gelişmiş Ekonomi Botu Altyapısıdır. Saahibi mzrde
 > ✅ /dilen <br>
 > ✅ /günlük <br>
 > ✅ /kaz <br>
+> ✅ /market <br>
 > ✅ /envanter <br>
 
 ### Banka ve Para Komutları
