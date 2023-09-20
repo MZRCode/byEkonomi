@@ -77,10 +77,7 @@ Günlük paranızı alırsınız
 Kazı yaparak para kazanırsınız.
 
 🪙 **</market:0>**
-Marketten kazma satın alırsınız.
-
-🪙 **</envanter:0>**
-Kendinizin veya başkasının envanterine bakarsınız.`, inline: true })
+Marketten kazma satın alırsınız.`, inline: true })
 .setTimestamp()
 .setFooter({ text: `${user.username} tarafından istendi.`, iconURL: user.displayAvatarURL() })
 
