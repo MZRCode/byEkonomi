@@ -12,7 +12,7 @@ module.exports = {
 
         await interaction.deferReply({ ephemeral: true })
 
-        const miktar = options.getInteger('miktar');
+        const miktar = options.getNumber('miktar');
         const bakiye = mzrdb.get(`mzrbakiye.${user.id}`) || 0;
         const banka = mzrdb.get(`mzrbankbakiye.${user.id}`) || 0;
         const kart = mzrdb.get(`mzrkart.${user.id}`) || {};
@@ -66,3 +66,55 @@ module.exports = {
         mzrdb.subtract(`mzrbakiye.${user.id}`, miktar);
     },
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// YouTube: @MZRDev tarafından yapılmıştır. Satılması, paylaşılması tamamen yasaktır!
