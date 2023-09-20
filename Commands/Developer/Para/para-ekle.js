@@ -36,8 +36,55 @@ module.exports = {
         .setTimestamp()
         .setFooter({ text: `${kullanıcı.username} isimli kullanıcıa artık mutlu`, iconURL: kullanıcı.displayAvatarURL() })
 
-        mzrdb.add(`mzrbakiye.${kullanıcı.id}`, para);
+          mzrdb.add(`mzrbakiye.${kullanıcı.id}`, para);
 
         await interaction.reply({ embeds: [mzrEmbed] })
     },
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// YouTube: @MZRDev tarafından yapılmıştır. Satılması, paylaşılması tamamen yasaktır!
