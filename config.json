@@ -1,0 +1,11 @@
+{
+    "token": "BOTUNUZUN_TOKENI",
+    "DeveloperID": "SIZIN_IDNIZ",
+    "DestekSunucuLink": "DESTEK_SUNUCUNUZUN_LINKI",
+    "demirKazmaFiyat": 100,
+    "elmasKazmaFiyat": 1000,
+    "vergiMiktar": 5,
+    "çalışKazanç": 50,
+    "günlükKazanç": 500,
+    "slotLimit": 20
+}
