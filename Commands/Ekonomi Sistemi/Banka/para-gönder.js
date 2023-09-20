@@ -11,10 +11,11 @@ module.exports = {
         const { user, options } = interaction;
 
         const kullanıcı = options.getUser('kullanıcı');
-        const miktar = options.getInteger('miktar');
+        const miktar = options.getNumber('miktar');
         const bakiye = mzrdb.get(`mzrbakiye.${user.id}`) || 0;
         const vergiHesapla = vergiMiktar.toString().padStart(2, '0');
-        const odencekVergi = 0. + vergiHesapla
+        const odencekVergi = `0.${vergiHesapla}`
+        console.log(odencekVergi);
         const vergiMiktarı = Math.floor(miktar * odencekVergi);
         let gercekVergiMiktari = 0;
 
@@ -46,3 +47,54 @@ module.exports = {
         await interaction.reply({ embeds: [mzrEmbed], ephemeral: false });
     },
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// YouTube: @MZRDev tarafından yapılmıştır. Satılması, paylaşılması tamamen yasaktır!
