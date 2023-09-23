@@ -15,7 +15,7 @@
   "dependencies": {
     "ascii-table": "^0.0.9",
     "canvas": "^2.11.2",
-    "croxydb": "^0.0.7",
+    "croxydb": "^0.0.22",
     "croxydb-stats": "^0.0.4",
     "discord.js": "^14.11.0",
     "fs": "^0.0.1-security",
