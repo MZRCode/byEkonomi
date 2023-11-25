@@ -8,6 +8,10 @@ module.exports = {
     execute(client) {
         client.user.setActivity({ name: 'YouTube: MZRDev', type: ActivityType.Streaming, url: "https://www.twitch.tv/mzrdev" });
 
-        loadCommands(client).then(() => djs.slashBuilder);
+        try {
+            loadCommands(client).then(() => djs.slashBuilder);
+        } catch (error) {
+            console.log(error);
+        };
     },
 };
