@@ -9,6 +9,7 @@ module.exports = {
 
         await interaction.deferReply({ ephemeral: true });
 
+        const banka = mzrdb.get(`mzrbankbakiye.${user.id}`) || 0;
         const kart = mzrdb.get(`mzrkart.${user.id}`) || {};
         const kartNumara = kart.kartNumara;
         const kartCVC = kart.cvc;
