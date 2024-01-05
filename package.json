@@ -20,7 +20,7 @@
     "discord.js": "^14.11.0",
     "glob": "^9.2.1",
     "ms": "^2.1.3",
-    "mzrdjs": "^0.0.19",
+    "mzrdjs": "^0.0.27",
     "path": "^0.12.7",
     "process": "^0.11.10",
     "weighted-random": "^0.1.0"
